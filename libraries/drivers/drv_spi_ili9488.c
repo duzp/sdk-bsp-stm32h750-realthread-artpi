@@ -838,7 +838,7 @@ rt_err_t lcd_show_string(rt_uint16_t x, rt_uint16_t y, rt_uint32_t size, const c
 
 /**
  * display the image on the lcd.
- *
+ * img2Lcd取模参数：水平扫描 24位色  不包含图像头数据  RGB排列
  * @param   x       x position
  * @param   y       y position
  * @param   length  length of image
